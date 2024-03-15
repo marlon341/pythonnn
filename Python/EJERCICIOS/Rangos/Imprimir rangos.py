@@ -8,8 +8,8 @@
 # print(texto)
 # print(list(range(0,texto)))
 
-# #imprimir un texto sin los espacios
-# texto='Hola mundo'
-# limpiador_espacios= texto.translate(str.maketrans('mundo','drako',' '))#especifico que quiero reemplazar y eliminar de la cadena
-# contador = len(limpiador_espacios)
-# print(contador,limpiador_espacios)
+#imprimir un texto sin los espacios
+texto='Hola mundo'
+limpiador_espacios= texto.translate(str.maketrans('mundo','drako',' '))#especifico que quiero reemplazar y eliminar de la cadena
+contador = len(limpiador_espacios)
+print(contador,limpiador_espacios)
